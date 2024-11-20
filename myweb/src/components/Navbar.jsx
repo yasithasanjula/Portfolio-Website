@@ -13,7 +13,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 z-50 w-full">
       <div className="flex items-center justify-between max-w-6xl p-4 mx-auto md:my-2 bg-stone-950/30 md:rounded-xl backdrop-blur-lg">
         <div className="text-lg font-semibold text-white uppercase">
-          <a href="/">Yasitha Sanjula</a>
+          <a href="/">Yasitha Sanjula Herath</a>
         </div>
         <div className="hidden space-x-8 md:flex">
           {(LINKS || []).map((link, index) => (
