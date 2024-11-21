@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import About from "./components/About";
+import Experience from "./components/Experience";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Hero />
         <Projects />
         <About />
+        <Experience />
       </main>
     </>
   );
