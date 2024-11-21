@@ -1,4 +1,4 @@
-import { motion, stagger } from "framer-motion";
+import { motion } from "framer-motion";
 import { HERO_CONTENT } from "../constants/index";
 import jason from "../assets/jason-root.webp";
 
