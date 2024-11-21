@@ -72,8 +72,8 @@ const Hero = () => {
           <img
             src={jason}
             alt="Jason Root"
-            width={650}
-            height={650}
+            width={500}
+            height={500}
             className="rounded-3xl"
           />
         </motion.div>
