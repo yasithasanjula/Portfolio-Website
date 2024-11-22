@@ -43,7 +43,7 @@ const Experience = () => {
         variants={containerVariants}
       >
         {EXPERIENCES.map((experience, index) => (
-          <motion.div key="index" variants={childVariables}>
+          <motion.div key={index} variants={childVariables}>
             <div className="flex flex-col md:flex-row md:justify-between">
               <div className="p-4 mb-2 text-sm md:w-1/4 md:mb-0">
                 {experience.yearRange}
